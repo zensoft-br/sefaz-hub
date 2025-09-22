@@ -2,54 +2,64 @@
   "services": {
     "AC": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "AL": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "AM": {
       "homologacao": {
         "autorizacao": "https://homnfe.sefaz.am.gov.br/services2/services/NfeAutorizacao4",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://homnfe.sefaz.am.gov.br/services2/services/NfeConsulta4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://homnfe.sefaz.am.gov.br/services2/services/NfeInutilizacao4",
         "recepcaoEvento": "https://homnfe.sefaz.am.gov.br/services2/services/RecepcaoEvento4",
         "retAutorizacao": "https://homnfe.sefaz.am.gov.br/services2/services/NfeRetAutorizacao4",
@@ -57,9 +67,11 @@
       },
       "producao": {
         "autorizacao": "https://nfe.sefaz.am.gov.br/services2/services/NfeAutorizacao4",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://nfe.sefaz.am.gov.br/services2/services/NfeConsulta4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.am.gov.br/services2/services/NfeInutilizacao4",
         "recepcaoEvento": "https://nfe.sefaz.am.gov.br/services2/services/RecepcaoEvento4",
         "retAutorizacao": "https://nfe.sefaz.am.gov.br/services2/services/NfeRetAutorizacao4",
@@ -67,39 +79,53 @@
       }
     },
     "AN": {
-      "homologacao": {
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "contingencia": "SVAN",
-        "distribuicaoDFe": "https://hom.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx",
-        "recepcaoEvento": "https://hom.nfe.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx"
-      },
-      "producao": {
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "contingencia": "SVAN",
+      "1": {
+        "autorizacao": null,
+        "consultaCadastro": null,
+        "consultaProtocolo": null,
         "distribuicaoDFe": "https://www1.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx",
-        "recepcaoEvento": "https://www.nfe.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx"
+        "downloadNFe": "https://www.nfe.fazenda.gov.br/NFeDownloadNF/NFeDownloadNF.asmx",
+        "inutilizacao": null,
+        "recepcaoEvento": "https://www.nfe.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
+        "retAutorizacao": null,
+        "statusServico": null
+      },
+      "2": {
+        "autorizacao": null,
+        "consultaCadastro": null,
+        "consultaProtocolo": null,
+        "distribuicaoDFe": "https://hom.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx",
+        "downloadNFe": "https://hom.nfe.fazenda.gov.br/NFeDownloadNF/NFeDownloadNF.asmx",
+        "inutilizacao": null,
+        "recepcaoEvento": "https://hom.nfe.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
+        "retAutorizacao": null,
+        "statusServico": null
       }
     },
     "AP": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "BA": {
@@ -108,6 +134,8 @@
         "consultaCadastro": "https://hnfe.sefaz.ba.gov.br/webservices/CadConsultaCadastro4/CadConsultaCadastro4.asmx",
         "consultaProtocolo": "https://hnfe.sefaz.ba.gov.br/webservices/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://hnfe.sefaz.ba.gov.br/webservices/NFeInutilizacao4/NFeInutilizacao4.asmx",
         "recepcaoEvento": "https://hnfe.sefaz.ba.gov.br/webservices/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
         "retAutorizacao": "https://hnfe.sefaz.ba.gov.br/webservices/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
@@ -118,62 +146,100 @@
         "consultaCadastro": "https://nfe.sefaz.ba.gov.br/webservices/CadConsultaCadastro4/CadConsultaCadastro4.asmx",
         "consultaProtocolo": "https://nfe.sefaz.ba.gov.br/webservices/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.ba.gov.br/webservices/NFeInutilizacao4/NFeInutilizacao4.asmx",
         "recepcaoEvento": "https://nfe.sefaz.ba.gov.br/webservices/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
         "retAutorizacao": "https://nfe.sefaz.ba.gov.br/webservices/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
         "statusServico": "https://nfe.sefaz.ba.gov.br/webservices/NFeStatusServico4/NFeStatusServico4.asmx"
       }
     },
-    "DF": {
+    "CE": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      }
+    },
+    "DF": {
+      "homologacao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      },
+      "producao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "ES": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "GO": {
       "homologacao": {
         "autorizacao": "https://homolog.sefaz.go.gov.br/nfe/services/NFeAutorizacao4?wsdl",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://homolog.sefaz.go.gov.br/nfe/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://homolog.sefaz.go.gov.br/nfe/services/NFeConsultaProtocolo4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://homolog.sefaz.go.gov.br/nfe/services/NFeInutilizacao4?wsdl",
         "recepcaoEvento": "https://homolog.sefaz.go.gov.br/nfe/services/NFeRecepcaoEvento4?wsdl",
         "retAutorizacao": "https://homolog.sefaz.go.gov.br/nfe/services/NFeRetAutorizacao4?wsdl",
@@ -181,9 +247,11 @@
       },
       "producao": {
         "autorizacao": "https://nfe.sefaz.go.gov.br/nfe/services/NFeAutorizacao4?wsdl",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://nfe.sefaz.go.gov.br/nfe/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://nfe.sefaz.go.gov.br/nfe/services/NFeConsultaProtocolo4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.go.gov.br/nfe/services/NFeInutilizacao4?wsdl",
         "recepcaoEvento": "https://nfe.sefaz.go.gov.br/nfe/services/NFeRecepcaoEvento4?wsdl",
         "retAutorizacao": "https://nfe.sefaz.go.gov.br/nfe/services/NFeRetAutorizacao4?wsdl",
@@ -192,24 +260,28 @@
     },
     "MA": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVAN",
+        "consultaCadastro": null,
+        "consultaProtocolo": "delegate:SVAN",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVAN",
+        "recepcaoEvento": "delegate:SVAN",
+        "retAutorizacao": "delegate:SVAN",
+        "statusServico": "delegate:SVAN"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVAN",
+        "consultaCadastro": null,
+        "consultaProtocolo": "delegate:SVAN",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVAN",
+        "recepcaoEvento": "delegate:SVAN",
+        "retAutorizacao": "delegate:SVAN",
+        "statusServico": "delegate:SVAN"
       }
     },
     "MG": {
@@ -218,6 +290,8 @@
         "consultaCadastro": "https://hnfe.fazenda.mg.gov.br/nfe2/services/CadConsultaCadastro4",
         "consultaProtocolo": "https://hnfe.fazenda.mg.gov.br/nfe2/services/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://hnfe.fazenda.mg.gov.br/nfe2/services/NFeInutilizacao4",
         "recepcaoEvento": "https://hnfe.fazenda.mg.gov.br/nfe2/services/NFeRecepcaoEvento4",
         "retAutorizacao": "https://hnfe.fazenda.mg.gov.br/nfe2/services/NFeRetAutorizacao4",
@@ -228,6 +302,8 @@
         "consultaCadastro": "https://nfe.fazenda.mg.gov.br/nfe2/services/CadConsultaCadastro4",
         "consultaProtocolo": "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeInutilizacao4",
         "recepcaoEvento": "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeRecepcaoEvento4",
         "retAutorizacao": "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeRetAutorizacao4",
@@ -237,9 +313,11 @@
     "MS": {
       "homologacao": {
         "autorizacao": "https://hom.nfe.sefaz.ms.gov.br/ws/NFeAutorizacao4",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://hom.nfe.sefaz.ms.gov.br/ws/CadConsultaCadastro4",
         "consultaProtocolo": "https://hom.nfe.sefaz.ms.gov.br/ws/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://hom.nfe.sefaz.ms.gov.br/ws/NFeInutilizacao4",
         "recepcaoEvento": "https://hom.nfe.sefaz.ms.gov.br/ws/NFeRecepcaoEvento4",
         "retAutorizacao": "https://hom.nfe.sefaz.ms.gov.br/ws/NFeRetAutorizacao4",
@@ -247,9 +325,11 @@
       },
       "producao": {
         "autorizacao": "https://nfe.sefaz.ms.gov.br/ws/NFeAutorizacao4",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://nfe.sefaz.ms.gov.br/ws/CadConsultaCadastro4",
         "consultaProtocolo": "https://nfe.sefaz.ms.gov.br/ws/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.ms.gov.br/ws/NFeInutilizacao4",
         "recepcaoEvento": "https://nfe.sefaz.ms.gov.br/ws/NFeRecepcaoEvento4",
         "retAutorizacao": "https://nfe.sefaz.ms.gov.br/ws/NFeRetAutorizacao4",
@@ -259,9 +339,11 @@
     "MT": {
       "homologacao": {
         "autorizacao": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeAutorizacao4?wsdl",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeConsulta4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeInutilizacao4?wsdl",
         "recepcaoEvento": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/RecepcaoEvento4?wsdl",
         "retAutorizacao": "https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeRetAutorizacao4?wsdl",
@@ -269,9 +351,11 @@
       },
       "producao": {
         "autorizacao": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeAutorizacao4?wsdl",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeConsulta4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeInutilizacao4?wsdl",
         "recepcaoEvento": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/RecepcaoEvento4?wsdl",
         "retAutorizacao": "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeRetAutorizacao4?wsdl",
@@ -280,54 +364,64 @@
     },
     "PA": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVAN",
+        "consultaCadastro": null,
+        "consultaProtocolo": "delegate:SVAN",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVAN",
+        "recepcaoEvento": "delegate:SVAN",
+        "retAutorizacao": "delegate:SVAN",
+        "statusServico": "delegate:SVAN"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVAN",
+        "consultaCadastro": null,
+        "consultaProtocolo": "delegate:SVAN",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVAN",
+        "recepcaoEvento": "delegate:SVAN",
+        "retAutorizacao": "delegate:SVAN",
+        "statusServico": "delegate:SVAN"
       }
     },
     "PB": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "PE": {
       "homologacao": {
         "autorizacao": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeAutorizacao4",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeInutilizacao4",
         "recepcaoEvento": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeRecepcaoEvento4",
         "retAutorizacao": "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeRetAutorizacao4",
@@ -335,9 +429,11 @@
       },
       "producao": {
         "autorizacao": "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeAutorizacao4",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": "https://nfe.sefaz.pe.gov.br/nfe-service/services/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeConsultaProtocolo4",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeInutilizacao4",
         "recepcaoEvento": "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeRecepcaoEvento4",
         "retAutorizacao": "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeRetAutorizacao4",
@@ -346,24 +442,28 @@
     },
     "PI": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "PR": {
@@ -372,6 +472,8 @@
         "consultaCadastro": "https://homologacao.nfe.sefa.pr.gov.br/nfe/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://homologacao.nfe.sefa.pr.gov.br/nfe/NFeConsultaProtocolo4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://homologacao.nfe.sefa.pr.gov.br/nfe/NFeInutilizacao4?wsdl",
         "recepcaoEvento": "https://homologacao.nfe.sefa.pr.gov.br/nfe/NFeRecepcaoEvento4?wsdl",
         "retAutorizacao": "https://homologacao.nfe.sefa.pr.gov.br/nfe/NFeRetAutorizacao4?wsdl",
@@ -382,76 +484,116 @@
         "consultaCadastro": "https://nfe.sefa.pr.gov.br/nfe/CadConsultaCadastro4?wsdl",
         "consultaProtocolo": "https://nfe.sefa.pr.gov.br/nfe/NFeConsultaProtocolo4?wsdl",
         "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefa.pr.gov.br/nfe/NFeInutilizacao4?wsdl",
         "recepcaoEvento": "https://nfe.sefa.pr.gov.br/nfe/NFeRecepcaoEvento4?wsdl",
         "retAutorizacao": "https://nfe.sefa.pr.gov.br/nfe/NFeRetAutorizacao4?wsdl",
         "statusServico": "https://nfe.sefa.pr.gov.br/nfe/NFeStatusServico4?wsdl"
       }
     },
-    "RN": {
+    "RJ": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      }
+    },
+    "RN": {
+      "homologacao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      },
+      "producao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "RO": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "RR": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "RS": {
@@ -459,7 +601,9 @@
         "autorizacao": "https://nfe-homologacao.sefazrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
         "consultaCadastro": "https://cad.sefazrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
         "consultaProtocolo": "https://nfe-homologacao.sefazrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe-homologacao.sefazrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
         "recepcaoEvento": "https://nfe-homologacao.sefazrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
         "retAutorizacao": "https://nfe-homologacao.sefazrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
@@ -469,33 +613,65 @@
         "autorizacao": "https://nfe.sefazrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
         "consultaCadastro": "https://cad.sefazrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
         "consultaProtocolo": "https://nfe.sefazrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.sefazrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
         "recepcaoEvento": "https://nfe.sefazrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
         "retAutorizacao": "https://nfe.sefazrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
         "statusServico": "https://nfe.sefazrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
       }
     },
-    "SE": {
+    "SC": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      }
+    },
+    "SE": {
+      "homologacao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
+      },
+      "producao": {
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     },
     "SP": {
@@ -504,6 +680,8 @@
         "consultaCadastro": "https://homologacao.nfe.fazenda.sp.gov.br/ws/cadconsultacadastro4.asmx",
         "consultaProtocolo": "https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeconsultaprotocolo4.asmx",
         "contingencia": "SVC-AN",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeinutilizacao4.asmx",
         "recepcaoEvento": "https://homologacao.nfe.fazenda.sp.gov.br/ws/nferecepcaoevento4.asmx",
         "retAutorizacao": "https://homologacao.nfe.fazenda.sp.gov.br/ws/nferetautorizacao4.asmx",
@@ -514,6 +692,8 @@
         "consultaCadastro": "https://nfe.fazenda.sp.gov.br/ws/cadconsultacadastro4.asmx",
         "consultaProtocolo": "https://nfe.fazenda.sp.gov.br/ws/nfeconsultaprotocolo4.asmx",
         "contingencia": "SVC-AN",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.fazenda.sp.gov.br/ws/nfeinutilizacao4.asmx",
         "recepcaoEvento": "https://nfe.fazenda.sp.gov.br/ws/nferecepcaoevento4.asmx",
         "retAutorizacao": "https://nfe.fazenda.sp.gov.br/ws/nferetautorizacao4.asmx",
@@ -521,111 +701,125 @@
       }
     },
     "SVAN": {
-      "homologacao": {
-        "autorizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://hom.sefazvirtual.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
-        "contingencia": "SVAN",
-        "inutilizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
-        "recepcaoEvento": "https://hom.sefazvirtual.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
-        "retAutorizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://hom.sefazvirtual.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
-      },
-      "producao": {
+      "1": {
         "autorizacao": "https://www.sefazvirtual.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://www.sefazvirtual.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
-        "contingencia": "SVAN",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://www.sefazvirtual.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
         "recepcaoEvento": "https://www.sefazvirtual.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
         "retAutorizacao": "https://www.sefazvirtual.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
         "statusServico": "https://www.sefazvirtual.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
+      },
+      "2": {
+        "autorizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
+        "consultaCadastro": null,
+        "consultaProtocolo": "https://hom.sefazvirtual.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
+        "recepcaoEvento": "https://hom.sefazvirtual.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
+        "retAutorizacao": "https://hom.sefazvirtual.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
+        "statusServico": "https://hom.sefazvirtual.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
       }
     },
     "SVC-AN": {
-      "homologacao": {
-        "autorizacao": "https://hom.svc.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://hom.svc.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
-        "contingencia": "SVC-AN",
-        "inutilizacao": "https://hom.svc.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
-        "recepcaoEvento": "https://hom.svc.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
-        "retAutorizacao": "https://hom.svc.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://hom.svc.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
-      },
-      "producao": {
+      "1": {
         "autorizacao": "https://www.svc.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://www.svc.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
-        "contingencia": "SVC-AN",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://www.svc.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
         "recepcaoEvento": "https://www.svc.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
         "retAutorizacao": "https://www.svc.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
         "statusServico": "https://www.svc.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
+      },
+      "2": {
+        "autorizacao": "https://hom.svc.fazenda.gov.br/NFeAutorizacao4/NFeAutorizacao4.asmx",
+        "consultaCadastro": null,
+        "consultaProtocolo": "https://hom.svc.fazenda.gov.br/NFeConsultaProtocolo4/NFeConsultaProtocolo4.asmx",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "https://hom.svc.fazenda.gov.br/NFeInutilizacao4/NFeInutilizacao4.asmx",
+        "recepcaoEvento": "https://hom.svc.fazenda.gov.br/NFeRecepcaoEvento4/NFeRecepcaoEvento4.asmx",
+        "retAutorizacao": "https://hom.svc.fazenda.gov.br/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx",
+        "statusServico": "https://hom.svc.fazenda.gov.br/NFeStatusServico4/NFeStatusServico4.asmx"
       }
     },
     "SVC-RS": {
-      "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
-      },
-      "producao": {
+      "1": {
         "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": null,
         "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
         "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
         "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
-      }
-    },
-    "SVRS": {
-      "homologacao": {
+      },
+      "2": {
         "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaCadastro": null,
         "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": null,
         "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
         "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
         "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
-      },
-      "producao": {
+      }
+    },
+    "SVRS": {
+      "1": {
         "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
         "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
         "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
         "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
         "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
         "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
         "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+      },
+      "2": {
+        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
+        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
+        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
+        "distribuicaoDFe": null,
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
+        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
+        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
+        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
       }
     },
     "TO": {
       "homologacao": {
-        "autorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad-homologacao.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       },
       "producao": {
-        "autorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx",
-        "consultaCadastro": "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx",
-        "consultaProtocolo": "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx",
-        "contingencia": "SVC-RS",
-        "inutilizacao": "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx",
-        "recepcaoEvento": "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx",
-        "retAutorizacao": "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx",
-        "statusServico": "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx"
+        "autorizacao": "delegate:SVRS",
+        "consultaCadastro": "delegate:SVRS",
+        "consultaProtocolo": "delegate:SVRS",
+        "contingencia": "SVRS",
+        "distribuicaoDFe": "delegate:AN",
+        "downloadNFe": "delegate:AN",
+        "inutilizacao": "delegate:SVRS",
+        "recepcaoEvento": "delegate:SVRS",
+        "retAutorizacao": "delegate:SVRS",
+        "statusServico": "delegate:SVRS"
       }
     }
   },
